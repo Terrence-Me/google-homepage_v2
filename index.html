@@ -18,6 +18,8 @@
     }
 .material-icons-outlined {
 color:black;
+padding: 
+justify-content: space-evenly;
 }
 .search-bar {
 width: 400px;
@@ -27,22 +29,38 @@ padding: 5px;
 margin: auto;
 display: flex;
 }
+.button-add {
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 27px;
+            }
+
 </style>
 </head>
 <body>
-    <p class="material-icons-outlined">
+    <div>
+    <div class="material-icons-outlined">
+    <p >
         images Gmail
     </p>
+   </div>
+</div>
     <div>
  
         <h2>
  <a href="https://www.google.com/"><img class="google-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></a>
 </h2>
 
-  <input class="search-bar" type="text">
-
-  
-
+  <input class="search-bar" type="text" placeholder="search">
 </div>
+<h3>
+<div>
+    <center> 
+     <button class="button-add" type="submit">Google Search</button>
+     <button Class="button-add" type="submit">I'm Feeling Lucky</button>
+    </center>
+</div>
+</h3>
 </body>
 </html>
